@@ -1,0 +1,39 @@
+<!--  disable para não deixar o  usuário escrever  -->
+<html>
+     <head>
+        <link rel="stylesheet" href="./css/index.css">
+        <script defer src="js/index.js"></script>
+     </head>
+     <body>
+        <input type="text" id="valor1" class="entrada" size="3"/>
+        <input type="text" id="valor2" class="entrada" size="3"/>
+        <button onclick="somar()" class="botao"> + </button>
+        <span class="sinal"> = </span>
+        <input type="readonly" id="resultadoSoma" disabled size="10" class="entrada">
+        <button onclick="limpaSoma()" class="limpar"> Limpar </button>
+        <br>
+
+        <input type="text" id="valor3" size="3" class="entrada"/>
+        <input type="text" id="valor4" size="3" class="entrada"/>
+        <button onclick="subtrair()" class="botao"> - </button>
+        <span class="sinal"> = </span>
+        <input type="text" id="resultadoSub" disabled size="10" class="entrada">
+        <button onclick="limpaSub()" class="limpar"> Limpar </button>
+        <br>
+
+        <input type="text" id="valor5" size="3" class="entrada"/>
+        <input type="text" id="valor6" size="3" class="entrada"/>
+        <button onclick="multiplicar()" class="botao">*</button>
+        <span class="sinal"> = </span>
+        <input type="text" id="resultadoMulti" disabled size="10" class="entrada">
+        <button onclick="limpaMulti()" class="limpar"> Limpar </button>
+        <br>
+
+        <input type="text" id="valor7" size="3" class="entrada"/>
+        <input type="text" id="valor8" size="3" class="entrada"/>
+        <button onclick="dividir()" class="botao"> / </button>
+        <span class="sinal"> = </span>
+        <input type="text" id="resultadoDivs" disabled size="10" class="entrada">
+        <button onclick="limpaDivs()" class="limpar"> Limpar </button>
+     </body>
+</html>

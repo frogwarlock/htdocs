@@ -1,0 +1,36 @@
+*{
+    font-family: 'Arial', sans-serif;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.recebeInfo{
+    max-width: 280px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px;
+    border: solid #535353 1px;
+    margin: 2px;
+    color: #fa5858;
+}
+.recebeInfo:hover{
+    border: 3px solid #fa5858 ;
+    color: solid #fa5858;
+}
+
+.botao{
+    height: 40px;
+    width: 7%;
+    background-color: #088A68 ;
+    color: aliceblue;
+    border-radius: 3px;
+    border: none;
+}
+.botao:active{
+    background-color: #04B486;
+}

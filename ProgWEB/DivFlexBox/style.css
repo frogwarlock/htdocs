@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(134, 14, 14);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.organiza{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    background-color: azure;
+    padding-top: 40px ;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: inherit;
+}
+
+.conteudo{
+    background-color: rgb(175, 179, 179);
+    
+}
+
+.organizaQuadradinho{
+    display: flex;
+}
+
+.quadradinho{
+    background-color: rgb(92, 55, 128);
+    padding: 50px;
+}
+

@@ -1,0 +1,49 @@
+#aplicativos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    border: solid 2px #222;
+    width: 200px;
+    height: 300px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.card-titulo{
+    width:100%;
+    height:15%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-logo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-descricao{
+    width: 100%;
+    height: 35%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.card-acao{
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
