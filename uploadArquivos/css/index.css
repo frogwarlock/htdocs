@@ -1,0 +1,25 @@
+.input-form{
+     width: 100%;
+     min-width: 200px;
+     max-width: 300px;     
+}
+
+.input-form i{
+    position: relative;
+    top: 29px;
+    left: 17px;
+    color: rgb(81, 38, 38) ;
+}
+
+.input-form input{
+    width: 100%;
+    outline: none;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: solid 3px rgb(81, 38, 38) ;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
